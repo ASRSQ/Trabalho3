@@ -1,0 +1,65 @@
+@media (max-width: 600px)
+{
+    .primeiro{
+        display: inline;
+    }
+    .segundo{
+        display: inline;
+    }
+    .terceiro{
+        display: none;
+    }
+    p{
+        display: inline-block;
+        text-align:justify;
+    }
+}
+@media (min-width: 601px) and (max-width:1439px)
+{
+    .primeiro{
+        width: 20%;
+        position: absolute;
+
+        display: inline-block;
+    }
+    .segundo{
+        width: 80%;
+        position: absolute;
+        left:20%;
+        display: inline-block;
+        
+    }
+    .terceiro{
+        display: none;
+    }
+    p{
+        display: inline-block;
+        text-align:justify;
+    }
+}
+@media (min-width: 1440px)
+{
+    .primeiro{
+        width: 20%;
+        position: absolute;
+
+        display: inline-block;
+    }
+    .segundo{
+        width: 60%;
+        position: absolute;
+        left:20%;
+        display: inline-block;
+        font-size: 8;
+    }
+    .terceiro{
+        width: 20%;
+        position: absolute;
+        left:80%;
+        display: inline-block;
+    } 
+    p{
+        display: inline-block;
+        text-align:justify;
+    }
+}

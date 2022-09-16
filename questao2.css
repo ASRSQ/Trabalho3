@@ -1,0 +1,10 @@
+@media not (orientation:landscape){
+    body{
+        display: none;
+    }
+}
+@media  (orientation:landscape){
+    body{
+        background-image: url(./image/giphy\ \(1\).gif);
+    }
+}
